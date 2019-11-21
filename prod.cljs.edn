@@ -1,3 +1,0 @@
-{:main cloyster.core
- :externs ["externs.js"]
- :output-to "resources/public/js/app.js"}

@@ -17,15 +17,5 @@
 		<div id="map"></div>
 		<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 		<script src="js/app.js"></script>
-		<script>
-			var map = L.map('map');
-			L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-			  attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
-			}).addTo(map);
-			map.setView([34.311, 132.307], 16);
-			L.marker([34.311, 132.307]).addTo(map).bindPopup("いかだ12号[34.311, 132.307]");
-			L.marker([34.312, 132.308]).addTo(map).bindPopup("いかだ13号[34.312, 132.308]");
-			L.marker([34.3115, 132.309]).addTo(map).bindPopup("いかだ14号[34.3115, 132.309]");
-		</script>
 	</body>
 </html>

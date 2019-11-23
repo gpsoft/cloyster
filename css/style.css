@@ -10,18 +10,22 @@ body {
 	background-color: #336699;
 }
 
-#map {
-	height: 380px;
+.map-canvas {
+	height: 400px;
 }
 
 div.form {
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 }
 
 .input-label {
 	width: 80px;
 	text-align: right;
 	margin-right: 8px;
+}
+
+.form-sepa {
+	margin: 12px 0px 12px 80px;
 }
 
 .content {
@@ -32,63 +36,5 @@ div.form {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 16px;
-}
-
-.display {
-	position: relative;
-	background: none no-repeat #4081C2 0 -20px / cover;
-	margin-bottom: 8px;
-}
-
-.date-section {
-	width: 300px;
-	height: 100px;
-	padding-top: 56px;
-	padding-left: 8px;
-	font-family: serif;
-	font-weight: bold;
-	font-size: 28px;
-}
-
-.digital-time-section {
-	width: 300px;
-	height: 200px;
-	font-size: 120px;
-	text-align: right;
-	padding-right: 12px;
-}
-
-.display.bg .date-section,
-.display.bg .digital-time-section {
-	text-shadow: 1px 1px 1px #000;
-}
-
-.analog-time-section {
-	position: absolute;
-	top: 20px;
-	right: 10px;
-	display: flex;
-	justify-content: center;
-	width: 260px;
-	height: 260px;
-	background: url('../img/face.png') no-repeat 50% 50% / contain;
-}
-
-.hand {
-	height: 260px;
-	position: absolute;
-}
-
-.controls {
-	padding: 4px;
-}
-
-.controls .check-label {
-	font-size: 19px;
-	margin-right: 8px;
-}
-
-.controls .check-label input[type=checkbox] {
-	vertical-align: middle;
 }
 
